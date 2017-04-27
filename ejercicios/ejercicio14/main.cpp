@@ -11,14 +11,14 @@ int suma(int x[],int tamanio)
 
 int main()
 {
-    int x;
+    int y;
     cout <<"Ingresa el tamanio: "<<endl;
-    cin>>x;
-    int arreglo[x];
+    cin>>y;
+    int arreglo[y];
     cout<<"Ingresa los elementos: "<<endl;
-    for(int i=0;i<x;++i){
+    for(int i=0;i<y;++i){
         cin>>arreglo[i];
     }
-    cout<<suma(arreglo,x);
+    cout<<suma(arreglo,y);
     return 0;
 }
