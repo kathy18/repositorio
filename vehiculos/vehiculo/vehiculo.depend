@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1495215261 source:d:\vehiculos\vehiculo\main.cpp
+	<iostream>
+	"vehiculo.h"
+	"car.h"
+
+1495217768 d:\vehiculos\vehiculo\include\vehiculo.h
+	<string>
+
+1495217745 d:\vehiculos\vehiculo\include\car.h
+	"vehiculo.h"
+
+1495214134 source:d:\vehiculos\vehiculo\src\car.cpp
+	"car.h"
+
