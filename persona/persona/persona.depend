@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1495821740 source:d:\persona\persona\main.cpp
+	<iostream>
+	"persona.h"
+	"gerente.h"
+	"conserge.h"
+
+1495818932 source:d:\persona\persona\src\conserge.cpp
+
+1495821337 d:\persona\persona\include\conserge.h
+	"persona.h"
+
+1495821326 d:\persona\persona\include\persona.h
+	<iostream>
+	<string.h>
+
+1495818951 source:d:\persona\persona\src\gerente.cpp
+
+1495818959 source:d:\persona\persona\src\persona.cpp
+
+1495821773 d:\persona\persona\include\gerente.h
+	<iostream>
+	<string.h>
+	<sstream>
+	"persona.h"
+
+1495821740 source:d:\persona\persona\src\birthday.cpp
+
