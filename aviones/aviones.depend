@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1496949144 source:e:\ejercicios\aviones\main.cpp
+	"avion.h"
+	"Torre.h"
+	"Avion_azul.h"
+	"Avion_rojo.h"
+	"Avion_verde.h"
+
+1496690434 source:e:\ejercicios\aviones\src\avion.cpp
+
+1496945645 source:e:\ejercicios\aviones\src\avion_azul.cpp
+	"Avion_azul.h"
+
+1496948549 e:\ejercicios\aviones\include\avion_azul.h
+	"avion.h"
+
+1496948235 e:\ejercicios\aviones\include\avion.h
+	<iostream>
+	<vector>
+
+1496948623 source:e:\ejercicios\aviones\src\torre.cpp
+	"Torre.h"
+
+1496947020 e:\ejercicios\aviones\include\torre.h
+	"avion.h"
+
+1496948479 source:e:\ejercicios\aviones\src\avion_rojo.cpp
+	"Avion_rojo.h"
+
+1496948644 e:\ejercicios\aviones\include\avion_rojo.h
+	"avion.h"
+
+1496949180 e:\ejercicios\aviones\include\avion_verde.h
+	"avion.h"
+
+1496949144 source:e:\ejercicios\aviones\src\avion_verde.cpp
+	"Avion_verde.h"
+
