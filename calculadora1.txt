@@ -1,0 +1,65 @@
+<html>
+  <head>
+  <style>
+  
+ .cuadro {
+  color:white;
+  border:2px dashed yellow;
+  text-align: center;
+  margin-bottom: 2px;
+ }
+ .subtitulo {
+ font-size: 15pt;
+ font-family: Arial;
+ border:1px solid lightgreen;
+ }
+  </style>
+  </head>
+  
+  <script>
+	function saludar() {
+	var nom=document.getElementById("nombre");
+	var mensaje = " Hola " + nom.value + "! ";
+	var cuadro=document.getElementById("cuadro");
+	cuadro.innerText = mensaje;
+	}
+	saludar();
+	
+	function suma() {
+	var cuadro=document.getElementById("cuadro");
+	var res=a.value + b.value;
+	}
+	
+	function resta() {
+	var cuadro=document.getElementById("cuadro");
+	var res=a.value - b.value;
+	}
+	
+	function resultado() {
+	var nom=document.getElementById("nombre");
+	var mensaje = " El resultado es: " + nom.value + "! ";
+	var cuadro=document.getElementById("cuadro");
+	cuadro.innerText = mensaje;
+	}
+	resultado();
+</script>
+
+  <body style="background-color: black;">
+  <button onclick="saludar();" >Saludar</button>
+  <input type="text" value="UCSP" id="nombre" />
+  <div>
+  <input type="text" value="Primer numero"/>
+  </div>
+  <div>
+  <input type="text" value="Segundo numero"/>
+  </div>
+  <button onclick="suma()"> + </button>
+  <button onclick="resta()"> - </button>
+	<div class="cuadro">
+	Hello world
+	</div>
+	<div class="cuadro subtitulo" id="cuadro">
+	Tu gefecita
+	</div>
+  </body>
+</html>

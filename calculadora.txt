@@ -1,0 +1,13 @@
+funtion sumar(){
+	var f=funtion(a,b){return a+b};
+	ejecutar (f);
+}
+funtion restar (){
+	ejecutar (funtion(a,b){return a-b});
+}
+function multiplicar(){
+	ejecutar (funtion (a,b){ return a*b});
+}
+function dividir(){
+	ejecuta (function(a,b){ return a/b});
+}

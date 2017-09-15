@@ -1,0 +1,55 @@
+<html>
+  <head>
+  <style>
+  
+ .cuadro {
+  color:white;
+  border:2px dashed yellow;
+  text-align: center;
+  margin-bottom: 2px;
+ }
+ .subtitulo {
+ font-size: 15pt;
+ font-family: Times new roman;
+ border:1px solid lightgreen;
+ }
+  </style>
+  </head>
+  
+  <script>
+	
+	saludar();
+	
+	function suma() {
+	var cuadro=document.getElementById("cuadro");
+	var res=a.value + b.value;
+	}
+	
+	function resta() {
+	var cuadro=document.getElementById("cuadro");
+	var res=a.value - b.value;
+	}
+	
+	function resultado() {
+	var nom=document.getElementById("nombre");
+	var mensaje = " El resultado es: " + nom.value + "! ";
+	var cuadro=document.getElementById("cuadro");
+	cuadro.innerText = mensaje;
+	}
+	resultado();
+</script>
+
+  <body style="background-color: black;">
+  <input type="text" value="Ingrese el primer numero" id="nombre" />
+  <div>
+  <input type="text" value=" "/>
+  </div>
+  <div>
+  <input type="text" value=" "/>
+  </div>
+  <button onclick="suma()"> + </button>
+  <button onclick="resta()"> - </button>
+  <button onclick="multiplicar()"> + </button>
+  <button onclick="dividir()"> - </button>
+  </body>
+</html>
